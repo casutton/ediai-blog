@@ -1,23 +1,27 @@
-{% if post.pdf-link %}
-<a href="{{ post.pdf-link }}" role="button" class="btn btn-default">  
-<span class="glyphicon glyphicon-file" aria-hidden="true"></span> Get paper (pdf)
+<div class="links-block">
+  
+{% if page.pdf-link %}
+<a href="{{ page.pdf-link }}" role="button" class="btn btn-default">  
+<span class="glyphicon glyphicon-file" aria-hidden="true"></span> Read (pdf)
 </a>
 {% endif %}
 
-{% if post.arxiv-link %}
-<a href="{{ post.arxiv-link }}" role="button" class="btn btn-default">  
-<span class="glyphicon glyphicon-file" aria-hidden="true"></span> Read on arxiv.org
+{% if page.arxiv-link %}
+<a href="{{ page.arxiv-link }}" role="button" class="btn btn-default">  
+<span class="glyphicon glyphicon-file" aria-hidden="true"></span> Read (arxiv.org)
 </a>
 {% endif %}
 
-{% if post.github-link %}
-<a href="{{ post.github-link }}" role="button" class="btn btn-default">  
-<i class="fa fa-github fa-navbar" aria-hidden="true"></i> Code on github
+{% if page.github-link %}
+<a href="{{ page.github-link }}" role="button" class="btn btn-default">  
+<i class="fa fa-github fa-navbar" aria-hidden="true"></i> Code (github)
 </a>
 {% endif %}
 
-{% if post.data-link %}
-<a href="{{ post.data-link }}" role="button" class="btn btn-default">  
-<span class="glyphicon glyphicon-file" aria-hidden="true"></span> Download data
+{% if page.data-link %}
+<a href="{{ page.data-link }}" role="button" class="btn btn-default">  
+<span class="glyphicon glyphicon-file" aria-hidden="true"></span> Data (download)
 </a>
 {% endif %}
+
+  </div>

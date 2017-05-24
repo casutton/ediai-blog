@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2017/05/sample-post.html</loc>
+<loc>http://localhost:4000/ediai/2017/05/sample-post.html</loc>
 <lastmod>2017-05-23T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/404</loc>
+<loc>http://localhost:4000/ediai/404</loc>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>http://localhost:4000/ediai/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/ediai/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/deep%20learning/</loc>
+<loc>http://localhost:4000/ediai/tag/deep%20learning/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/deep%20generative%20models/</loc>
+<loc>http://localhost:4000/ediai/tag/deep%20generative%20models/</loc>
 </url>
 </urlset>

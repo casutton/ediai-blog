@@ -18,7 +18,7 @@ This is Markdown, so you can write whatever you want that way.
 
 Right below here, put a bit image from your paper (e.g., your overview figure or something like that)
 
-<img class="wraparound" src="/images/edinburgh_castle.jpg">
+<img class="wraparound" src="{{ site.baseurl }}/images/edinburgh_castle.jpg">
 
 (image source: http://photoeverywhere.co.uk/britain/edinburgh/slides/edinburgh_castle.htm)
 
@@ -43,10 +43,10 @@ depending on who the sponsors are for your work.
 This research has been kindly supported by
 
 <div class="logo-block">
-<a href=""><img src="/images/epsrc.jpg" width="125" alt="Engineering and Physical Sciences Research Council"></a>
-<a href=""><img src="/images/cdt-ds.png" width="200" alt="EPSRC Centre for Doctoral Training in Data Science"></a>
-<a href=""><img width="100" src="/images/Microsoft_Research_logo.jpg" alt="Microsoft Research Cambridge"></a>
-<a href=""><img width="200" src="/images/logo-ce-horizontal-en-quadri-lr.png" alt="European Union Horizon 2020"></a>
+<a href=""><img src="{{ site.baseurl }}/images/epsrc.jpg" width="125" alt="Engineering and Physical Sciences Research Council"></a>
+<a href=""><img src="{{ site.baseurl }}/images/cdt-ds.png" width="200" alt="EPSRC Centre for Doctoral Training in Data Science"></a>
+<a href=""><img width="100" src="{{ site.baseurl }}/images/Microsoft_Research_logo.jpg" alt="Microsoft Research Cambridge"></a>
+<a href=""><img width="200" src="{{ site.baseurl }}/images/logo-ce-horizontal-en-quadri-lr.png" alt="European Union Horizon 2020"></a>
 </div>
 
 {% include tag_block.html %}

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-24T10:54:06+01:00</updated><id>http://localhost:4000//</id><title type="html">Edinburgh Artificial Intelligence and Data Science</title><subtitle>Research from the University of Edinburgh</subtitle><entry><title type="html">This should be the title of your paper</title><link href="http://localhost:4000/2017/05/sample-post.html" rel="alternate" type="text/html" title="This should be the title of your paper" /><published>2017-05-23T00:00:00+01:00</published><updated>2017-05-23T00:00:00+01:00</updated><id>http://localhost:4000/2017/05/sample-post</id><content type="html" xml:base="http://localhost:4000/2017/05/sample-post.html">&lt;p class=&quot;coauthors&quot;&gt;List your coauthors here&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/ediai/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/ediai/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ediai/" rel="alternate" type="text/html" /><updated>2017-05-24T11:11:39+01:00</updated><id>http://localhost:4000/ediai//</id><title type="html">Edinburgh Artificial Intelligence and Data Science</title><subtitle>Research from the University of Edinburgh</subtitle><entry><title type="html">This should be the title of your paper</title><link href="http://localhost:4000/ediai/2017/05/sample-post.html" rel="alternate" type="text/html" title="This should be the title of your paper" /><published>2017-05-23T00:00:00+01:00</published><updated>2017-05-23T00:00:00+01:00</updated><id>http://localhost:4000/ediai/2017/05/sample-post</id><content type="html" xml:base="http://localhost:4000/ediai/2017/05/sample-post.html">&lt;p class=&quot;coauthors&quot;&gt;List your coauthors here&lt;/p&gt;
 
 &lt;p&gt;This is Markdown, so you can write whatever you want that way.&lt;/p&gt;
 
 &lt;p&gt;Right below here, put a bit image from your paper (e.g., your overview figure or something like that)&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;wraparound&quot; src=&quot;/images/edinburgh_castle.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;wraparound&quot; src=&quot;/ediai/images/edinburgh_castle.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;(image source: http://photoeverywhere.co.uk/britain/edinburgh/slides/edinburgh_castle.htm)&lt;/p&gt;
 
@@ -19,6 +19,34 @@ But simplify the language a little bit to make it seem more informal.&lt;/p&gt;
 &lt;p&gt;If you don’t want to link to code or a paper, etc, then delete the relevant
 link from the YAML preamble at the top of the md file for the post.&lt;/p&gt;
 
+&lt;div class=&quot;links-block&quot;&gt;
+  
+
+&lt;a href=&quot;http://github.com/link-to-my-repo&quot; role=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;  
+&lt;span class=&quot;glyphicon glyphicon-file&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Read (pdf)
+&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://change-this-to-a-link-to-arxiv.com&quot; role=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;  
+&lt;span class=&quot;glyphicon glyphicon-file&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Read (arxiv.org)
+&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://github.com/link-to-my-repo&quot; role=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;  
+&lt;i class=&quot;fa fa-github fa-navbar&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Code (github)
+&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://www.inf.ed.ac.uk/im-a-data-set-and-im-ok/&quot; role=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;  
+&lt;span class=&quot;glyphicon glyphicon-file&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Data (download)
+&lt;/a&gt;
+
+
+  &lt;/div&gt;
+
 &lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
 
 &lt;p&gt;There a list of commented out sponsor logos below. Add in the ones you need,
@@ -27,8 +55,8 @@ depending on who the sponsors are for your work.&lt;/p&gt;
 &lt;p&gt;This research has been kindly supported by&lt;/p&gt;
 
 &lt;div class=&quot;logo-block&quot;&gt;
-&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;/images/epsrc.jpg&quot; width=&quot;125&quot; alt=&quot;Engineering and Physical Sciences Research Council&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;/images/cdt-ds.png&quot; width=&quot;200&quot; alt=&quot;EPSRC Centre for Doctoral Training in Data Science&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;&lt;img width=&quot;100&quot; src=&quot;/images/Microsoft_Research_logo.jpg&quot; alt=&quot;Microsoft Research Cambridge&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;&lt;img width=&quot;200&quot; src=&quot;/images/logo-ce-horizontal-en-quadri-lr.png&quot; alt=&quot;European Union Horizon 2020&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;/ediai/images/epsrc.jpg&quot; width=&quot;125&quot; alt=&quot;Engineering and Physical Sciences Research Council&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;/ediai/images/cdt-ds.png&quot; width=&quot;200&quot; alt=&quot;EPSRC Centre for Doctoral Training in Data Science&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;&quot;&gt;&lt;img width=&quot;100&quot; src=&quot;/ediai/images/Microsoft_Research_logo.jpg&quot; alt=&quot;Microsoft Research Cambridge&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;&quot;&gt;&lt;img width=&quot;200&quot; src=&quot;/ediai/images/logo-ce-horizontal-en-quadri-lr.png&quot; alt=&quot;European Union Horizon 2020&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;</content><author><name>Charles Sutton</name></author><category term="deep learning" /><category term="deep generative models" /><summary type="html">List your coauthors here</summary></entry></feed>
