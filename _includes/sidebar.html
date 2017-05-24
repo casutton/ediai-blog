@@ -1,0 +1,37 @@
+	 <div class="sidebar col-sm-4">
+
+           <h1>About Us</h1>
+
+           <ul>
+             <li><a href="http://www.anc.ed.ac.uk/machine-learning/">Machine Learning at UoE</a></li>
+             <li><a href="http://datascience.inf.ed.ac.uk/">Centre for Doctoral Training in Data Science</a></li>
+             <li><a href="http://www.inf.ed.ac.uk/">School of Informatics</a></li>
+             <li><a href="http://www.maths.ed.ac.uk/">School of Mathematics</a></li>
+           </ul>
+
+	   <h1>Recent Posts</h1>
+
+	   <ul>
+	     {% for post in site.posts limit:5 %}
+	     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	     {% endfor %}
+	   </ul>
+
+	   <!-- add back once we get more tags. -cas
+	   
+	   <h1>Topics</h1>
+	   <ul>
+	     {% assign sorted_tags = site.tags | sort %}
+	     {% for tag in sorted_tags %}
+	     {% if tag[0] != 'popular' %}
+	     {% assign tag_len = tag[1].size %}
+	     {% if tag_len > 1 %}
+	     <li><a href="/tag/{{tag[0]}}">{{ tag[0] }}</a> ({{ tag_len }})</li>
+	     {% endif %}
+	     {% endif %}
+	     {% endfor %}
+	   </ul>
+
+	   -->
+
+	 </div>
